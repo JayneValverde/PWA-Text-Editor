@@ -14,7 +14,6 @@ This is a text editor that runs in the browser. It is a single-age PWA that uses
 * [Acceptance Criteria](#acceptance-criteria)
 * [Usage](#usage)
 * [Screenshots](#screenshots)
-* [Installation](#installation)
 * [License](#license)
 * [Resources](#resources)
 * [Questions](#questions)
