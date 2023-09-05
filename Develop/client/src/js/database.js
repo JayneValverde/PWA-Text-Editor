@@ -12,7 +12,7 @@ const initdb = async () =>
     },
   });
 
-// Add logic to a method that accepts some content and adds it to the database
+// TODO:Add logic to a method that accepts some content and adds it to the database
 export const putDb = async (content) => {
   console.error('PUT to the database');
 
@@ -23,7 +23,7 @@ export const putDb = async (content) => {
   const tx = contactDb.transaction('jate', 'readwrite');
 
   // Open the desired object
-const store = tx.objectStore('jate');
+  const store = tx.objectStore('jate');
 
   // Use the .add() method on the store and pass into content
   const request = store.put({ id: 1, value: content });
@@ -33,7 +33,7 @@ const store = tx.objectStore('jate');
   console.log('🚀 - data saved to the database', result);
 };
 
-// Add logic for a method that gets all the content from the database
+// TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
   console.error('GET from the database');
 
@@ -51,7 +51,7 @@ export const getDb = async () => {
 
   // Get confirmation of the request.
   const result = await request; 
-  console.log('result.value',);
+  console.log('result.value', result);
   return result?.value;
 };
 
