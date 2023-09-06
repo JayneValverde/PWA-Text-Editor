@@ -4,7 +4,7 @@ Progressive Web Applications (PWA) Challenge: Text Editor
 
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-### **_[LINK TO DEPLOYED APP]()_**
+### **_[LINK TO DEPLOYED APP](https://pwa-text-editor-jv-c9a36b67da25.herokuapp.com/)_**
 
 ## Description: 
 This is a text editor that runs in the browser. It is a single-age PWA that uses webpack and features several data persistence techniques. It can function without an internet connection and can be installed on a PC. When installed, a shortcut to the applicaiton will be added to your desktop. 
